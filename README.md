@@ -1,4 +1,4 @@
-<h1 align="center"> Easy localization </h1>
+<p align="center"><img src="./logo/logo.svg"/></p>
 
 ![Pub Version](https://img.shields.io/pub/v/easy_localization?style=flat-square)
 ![Code Climate issues](https://img.shields.io/github/issues/aissat/easy_localization?style=flat-square)
