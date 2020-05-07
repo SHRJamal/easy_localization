@@ -136,7 +136,7 @@ Text(LocaleKeys.title).tr(); //Widget
 --- | --- | ---
 ![Arabic RTL](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_ar.png "Arabic RTL")|![English LTR](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_en.png "English LTR")|![Error widget](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_err.png "Error widget")
 
-### Donations
+## Donations
 
 ---------
 
@@ -148,12 +148,12 @@ We need your support. Projects like this can not be successful without support f
   </a>
 </p>
 
-#### Backers
+### Backers
 
 <img src="https://opencollective.com/flutter_easy_localization/tiers/backer.svg?avatarHeight=36"/>
 
 
-## Contributors thanks
+### Contributors thanks
 
 ![contributors](https://contributors-img.firebaseapp.com/image?repo=aissat/easy_localization)
 <a href="https://github.com/aissat/easy_localization/graphs/contributors"></a>
