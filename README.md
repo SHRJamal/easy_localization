@@ -139,22 +139,13 @@ Text(LocaleKeys.title).tr(); //Widget
 
 ---------
 
-We need your support. Projects like this can not be successful without support from the community. If you find this project useful, and would like to support further development and ongoing maintenance, please consider donating. Devs gotta eat!
-**PayPal**
+We need your support. Projects like this can not be successful without support from the community. If you find this project useful, and would like to support further development and ongoing maintenance, please consider donating.
 
-- **[Donate $5](https://paypal.me/aissatabdelwahab/5)**:
-  Thank's for creating this project, here's a coffee for you!
-
-- **[Donate $10](https://paypal.me/aissatabdelwahab/10)**:
-  Wow, I am stunned. Let me take you to the movies!
-
-- **[Donate $15](https://paypal.me/aissatabdelwahab/15)**:
-  I really appreciate your work, let's grab some lunch!
-
-- **[Donate $25](https://paypal.me/aissatabdelwahab/25)**:
-  That's some awesome stuff you did right there, dinner is on me!
-
-Of course, you can also choose what you want to donate. All donations are very much appreciated!
+<p align="center">
+  <a href="https://opencollective.com/flutter_easy_localization/donate" target="_blank">
+    <img src="https://opencollective.com/flutter_easy_localization/donate/button@2x.png?color=blue" width=300 />
+  </a>
+</p>
 
 ## Contributors thanks
 
