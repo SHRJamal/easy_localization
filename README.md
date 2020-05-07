@@ -138,8 +138,6 @@ Text(LocaleKeys.title).tr(); //Widget
 
 ## Donations
 
----------
-
 We need your support. Projects like this can not be successful without support from the community. If you find this project useful, and would like to support further development and ongoing maintenance, please consider donating.
 
 <p align="center">
