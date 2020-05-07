@@ -148,7 +148,7 @@ We need your support. Projects like this can not be successful without support f
 
 ### Backers
 
-<img src="https://opencollective.com/flutter_easy_localization/tiers/backer.svg?avatarHeight=36"/>
+<img src="https://opencollective.com/flutter_easy_localization/tiers/backer.svg?avatarHeight=48"/>
 
 
 ### Contributors thanks
