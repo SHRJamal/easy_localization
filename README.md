@@ -19,15 +19,15 @@ this package simplifies the internationalizing process
 
 ## Why easy_localization?
 
-✔️ Easy translations for many languages
-✔️ Load translations as JSON, CSV, Yaml, Xml using [Easy Localization Loader](https://github.com/aissat/easy_localization_loader)
-✔️ React and persist to locale changes
-✔️ Supports plural, gender, nesting, RTL locales and more
-✔️ Optional code generation
-✔️ Error widget for missing translations
-✔️ Extension methods on `Text` and `BuildContext`
-✔️ Code generation for localization files and keys.
-✔️ Uses BLoC pattern
+- ✔️ Easy translations for many languages
+- ✔️ Load translations as JSON, CSV, Yaml, Xml using [Easy Localization Loader](https://github.com/aissat/easy_localization_loader)
+- ✔️ React and persist to locale changes
+- ✔️ Supports plural, gender, nesting, RTL locales and more
+- ✔️ Optional code generation
+- ✔️ Error widget for missing translations
+- ✔️ Extension methods on `Text` and `BuildContext`
+- ✔️ Code generation for localization files and keys.
+- ✔️ Uses BLoC pattern
 
 ## Getting Started
 
