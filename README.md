@@ -14,6 +14,7 @@ Easy and Fast internationalization for your Flutter Apps
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/aissat/easy_localization/Flutter%20Tester?longCache=true&style=flat-square&logo=github)
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/aissat/easy_localization?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/aissat/easy_localization?style=flat-square)
+![Backers](https://opencollective.com/flutter_easy_localization/tiers/backer/badge.svg?label=backers&color=brightgreen)
 
 ## Why easy_localization?
 
@@ -146,6 +147,11 @@ We need your support. Projects like this can not be successful without support f
     <img src="https://opencollective.com/flutter_easy_localization/donate/button@2x.png?color=blue" width=300 />
   </a>
 </p>
+
+#### Backers
+
+<img src="https://opencollective.com/flutter_easy_localization/tiers/backer.svg?avatarHeight=36"/>
+
 
 ## Contributors thanks
 
