@@ -118,8 +118,10 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-[*Full example*](https://github.com/aissat/easy_localization/blob/master/example/lib/main.dart)
+[**Full example**](https://github.com/aissat/easy_localization/blob/master/example/lib/main.dart)
 </details>
+
+## Usage
 
 #### Change Locale:
 
