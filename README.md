@@ -131,9 +131,11 @@ class MyApp extends StatelessWidget {
 context.locale = locale;
 ```
 
-### Code generation of localization files
+## Code generation
 
-Code generation supports json files, for more information run in terminal `flutter pub run easy_localization:generate -h`
+Code generation keys supports json files, for more information run in terminal `flutter pub run easy_localization:generate -h`
+
+### Localization asset loader class
 
 Steps:
 1. Open your terminal in the folder's path containing your project 
@@ -155,11 +157,9 @@ void main(){
 ```
 4. All done!
 
-### Code generation of keys
+### Localization keys
 
 If you have many localization keys and are confused, key generation will help you. The code editor will automatically prompt keys
-
-Code generation keys supports json files, for more information run in terminal `flutter pub run easy_localization:generate -h`
 
 Steps:
 1. Open your terminal in the folder's path containing your project 
