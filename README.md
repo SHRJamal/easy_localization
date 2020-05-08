@@ -85,6 +85,44 @@ Example:
 </array>
 ```
 
+#### A simple example
+
+<details>
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:easy_localization/easy_localization.dart';
+
+void main() {
+  runApp(
+    EasyLocalization(
+      child: MyApp(),
+      supportedLocales: [Locale('en'), Locale('nb')],
+      path: 'assets/translations',
+      fallbackLocale: Locale('en')
+    ),
+  );
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      localizationsDelegates: context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+      locale: context.locale,
+      home: Scaffold(
+        body: Center(
+          child: Text('hi').tr(),
+        ),
+      ),
+    );
+  }
+}
+```
+</details>
+
 #### Change Locale:
 
 ```dart
