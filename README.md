@@ -85,8 +85,9 @@ Example:
 </array>
 ```
 
+#### A simple example
+
 <details>
-  <summary>#### A simple example</summary>
 
 ```dart
 import 'package:flutter/material.dart';
@@ -111,15 +112,13 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
-      home: Scaffold(
-        body: Center(
-          child: Text('hi').tr(),
-        ),
-      ),
+      home: MyHomePage()
     );
   }
 }
 ```
+
+[*Full example*](https://github.com/aissat/easy_localization/blob/master/example/lib/main.dart)
 </details>
 
 #### Change Locale:
