@@ -31,7 +31,7 @@ Easy and Fast internationalization for your Flutter Apps
 
 ### Installation
 
-Add to your _pubspec.yaml_:
+Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
@@ -39,7 +39,7 @@ dependencies:
 ```
 
 
-Add translation files as local assets to _path_, e.g:
+Add translation files as local assets to `path`, e.g:
 
 ```
 /assets/translations
@@ -59,7 +59,7 @@ Example:
 /assets/translations/en-US.json
 ```
 
-Declare your assets localization directory in _pubspec.yaml_:
+Declare your assets localization directory in `pubspec.yaml`:
 
 ```yaml
 flutter:
@@ -90,8 +90,7 @@ Example:
 
 ### Configuration app
 
-<details>
-  <summary>Simple example</summary>
+Add EasyLocalization widget like in example
 
 ```dart
 import 'package:flutter/material.dart';
@@ -101,10 +100,10 @@ import 'package:easy_localization/easy_localization.dart';
 void main() {
   runApp(
     EasyLocalization(
-      child: MyApp(),
-      supportedLocales: [Locale('en'), Locale('nb')],
+      supportedLocales: [Locale('en', 'US'), Locale('de', 'DE')],
       path: 'assets/translations',
-      fallbackLocale: Locale('en')
+      fallbackLocale: Locale('en', 'US'),
+      child: MyApp()
     ),
   );
 }
@@ -122,9 +121,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-</details>
-
-[**Full example**]([.]https://github.com/aissat/easy_localization_loader/blob/master/example/lib/main.dart)
+[**Full example**](https://github.com/aissat/easy_localization_loader/blob/master/example/lib/main.dart)
 
 ## Usage
 
