@@ -29,48 +29,51 @@ Easy and Fast internationalization for your Flutter Apps
 
 ## Getting Started
 
-### Configuration
+### Installation
 
-Add this to your package's pubspec.yaml file:
+#### Add to your _pubspec.yaml_:
 
 ```yaml
 dependencies:
-  # stable version install from https://pub.dev/packages
   easy_localization: <last_version>
-
-  # Dev version install from git REPO
-  easy_localization:
-    git: https://github.com/aissat/easy_localization.git
-
 ```
 
-#### Load translations from local assets
 
-You must create a folder in your project's root: the `path`. Some examples:
+#### Add translation files as local assets to _path_, e.g:
 
-> /assets/"langs" , "i18n", "locale" or anyname ...
->
-> /resources/"langs" , "i18n", "locale" or anyname ...
+```
+/assets/translations
+```
 
-Inside this folder, must put the _json_ or _csv_ files containing the translated keys:
+#### Add translation files like this
 
-> `path`/${languageCode}-${countryCode}.${formatFile}
+```
+{path}/{languageCode}.{ext}
+{path}/{languageCode}-{countryCode}.{ext}
+```
 
-[example:](https://github.com/aissat/easy_localization/tree/master/example)
+Example:
 
-- en.json or en-US.json
-- ar.json or ar-DZ.json
-- langs.csv
+```
+/assets/translations/en.json
+/assets/translations/en-US.json
+```
 
-must declare the subtree in your **_pubspec.yaml_** as assets:
+#### Declare your assets localization directory in _pubspec.yaml_:
 
 ```yaml
 flutter:
   assets:
-    - {`path`/{languageCode}-{countryCode}.{formatFile}}
+    - assets/translations/
 ```
 
-#### Note on **iOS**
+### Loading translations from other resources
+
+You can use JSON,CSV,HTTP,XML,Yaml files, etc.
+
+See [Easy Localization Loader](https://github.com/aissat/easy_localization_loader) for more info.
+
+### Note on **iOS**
 
 For translation to work on **iOS** you need to add supported locales to 
 `ios/Runner/Info.plist` as described [here](https://flutter.dev/docs/development/accessibility-and-localization/internationalization#specifying-supportedlocales).
@@ -85,9 +88,10 @@ Example:
 </array>
 ```
 
-#### A simple example
+### Configuration app
 
 <details>
+  <summary>Simple example</summary>
 
 ```dart
 import 'package:flutter/material.dart';
@@ -118,24 +122,19 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-[**Full example**](https://github.com/aissat/easy_localization/blob/master/example/lib/main.dart)
 </details>
+
+[**Full example**]([.]https://github.com/aissat/easy_localization_loader/blob/master/example/lib/main.dart)
 
 ## Usage
 
-#### Change Locale:
+### Change Locale:
 
 ```dart
 context.locale = locale;
 ```
 
-#### Loading translations from other resources
-
-You can use JSON,CSV,HTTP,XML,Yaml files, etc.
-
-See [Easy Localization Loader](https://github.com/aissat/easy_localization_loader) for more info.
-
-#### Code generation of localization files
+### Code generation of localization files
 
 Code generation supports json files, for more information run in terminal `flutter pub run easy_localization:generate -h`
 
@@ -159,7 +158,7 @@ void main(){
 ```
 4. All done!
 
-#### Code generation of keys
+### Code generation of keys
 
 If you have many localization keys and are confused, key generation will help you. The code editor will automatically prompt keys
 
