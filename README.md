@@ -31,7 +31,7 @@ Easy and Fast internationalization for your Flutter Apps
 
 ### Installation
 
-#### Add to your _pubspec.yaml_:
+Add to your _pubspec.yaml_:
 
 ```yaml
 dependencies:
@@ -39,13 +39,13 @@ dependencies:
 ```
 
 
-#### Add translation files as local assets to _path_, e.g:
+Add translation files as local assets to _path_, e.g:
 
 ```
 /assets/translations
 ```
 
-#### Add translation files like this
+Add translation files like this
 
 ```
 {path}/{languageCode}.{ext}
@@ -59,7 +59,7 @@ Example:
 /assets/translations/en-US.json
 ```
 
-#### Declare your assets localization directory in _pubspec.yaml_:
+Declare your assets localization directory in _pubspec.yaml_:
 
 ```yaml
 flutter:
