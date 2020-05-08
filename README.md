@@ -15,6 +15,7 @@ Easy and Fast internationalization for your Flutter Apps
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/aissat/easy_localization?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/aissat/easy_localization?style=flat-square)
 ![Sponsors](https://opencollective.com/flutter_easy_localization/tiers/backer/badge.svg?label=sponsors&color=brightgreen)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
 ## Why easy_localization?
 
