@@ -77,7 +77,7 @@ For translation to work on **iOS** you need to add supported locales to
 
 Example:
 
-```plist
+```xml
 <key>CFBundleLocalizations</key>
 <array>
 	<string>en</string>
