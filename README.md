@@ -85,9 +85,8 @@ Example:
 </array>
 ```
 
-#### A simple example
-
 <details>
+  <summary>#### A simple example</summary>
 
 ```dart
 import 'package:flutter/material.dart';
