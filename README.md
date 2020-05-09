@@ -30,7 +30,7 @@ Easy and Fast internationalization for your Flutter Apps
 
 ## Getting Started
 
-### Installation
+### 🔩 Installation
 
 Add to your `pubspec.yaml`:
 
@@ -68,13 +68,13 @@ flutter:
     - assets/translations/
 ```
 
-### Loading translations from other resources
+### 🔌 Loading translations from other resources
 
 You can use JSON,CSV,HTTP,XML,Yaml files, etc.
 
 See [Easy Localization Loader](https://github.com/aissat/easy_localization_loader) for more info.
 
-### Note on **iOS**
+### ⚠️ Note on **iOS**
 
 For translation to work on **iOS** you need to add supported locales to 
 `ios/Runner/Info.plist` as described [here](https://flutter.dev/docs/development/accessibility-and-localization/internationalization#specifying-supportedlocales).
@@ -89,7 +89,7 @@ Example:
 </array>
 ```
 
-### Configuration app
+### ⚙️ Configuration app
 
 Add EasyLocalization widget like in example
 
@@ -124,7 +124,7 @@ class MyApp extends StatelessWidget {
 
 [**Full example**](https://github.com/aissat/easy_localization/blob/master/example/lib/main.dart)
 
-### Easy localization widget properties
+### 📜 Easy localization widget properties
 
 | Properties       | Required | Default                   | Description |
 | ---------------- | -------- | ------------------------- | ----------- |
@@ -142,24 +142,24 @@ class MyApp extends StatelessWidget {
 
 ## Usage
 
-### Change locale
+### 🔥 Change locale
 
 context.locale
 usage
 
-### Translate
+### 🌐 Translate
 tr()
 
 Text().tr()
 
 example
 
-### Pluralization
+### 🎭 Pluralization
 plural()
 
 example
 
-### Delete save locale
+### 🧹 Delete save locale
 
 
 ## Code generation
