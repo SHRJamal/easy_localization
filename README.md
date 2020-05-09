@@ -28,7 +28,7 @@ Easy and Fast internationalization for your Flutter Apps
 - 💻 Code generation for localization files and keys.
 - 👍 Uses BLoC pattern 
 
-## Getting Started
+## 🔰 Getting Started
 
 ### 🔩 Installation
 
@@ -140,7 +140,7 @@ class MyApp extends StatelessWidget {
 | preloaderWidget  | false    | `EmptyPreloaderWidget()`  | Preloader widget. Shown when `Easy Localization` not loaded |
 
 
-## Usage
+## ⚡ Usage
 
 ### 🔥 Change locale
 
@@ -162,11 +162,11 @@ example
 ### 🧹 Delete save locale
 
 
-## Code generation
+## 💻 Code generation
 
 Code generation keys supports json files, for more information run in terminal `flutter pub run easy_localization:generate -h`
 
-### Localization asset loader class
+### 🔌 Localization asset loader class
 
 Steps:
 1. Open your terminal in the folder's path containing your project 
@@ -188,7 +188,7 @@ void main(){
 ```
 4. All done!
 
-### Localization keys
+### 🔑 Localization keys
 
 If you have many localization keys and are confused, key generation will help you. The code editor will automatically prompt keys
 
@@ -210,13 +210,13 @@ print(LocaleKeys.title.tr()); //String
 Text(LocaleKeys.title).tr(); //Widget
 ```
 
-## Screenshots
+## 📷 Screenshots
 
  | Arabic RTL                                                                                                                  | English LTR                                                                                                                   | Error widget                                                                                                                     |
  | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
  | ![Arabic RTL](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_ar.png "Arabic RTL") | ![English LTR](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_en.png "English LTR") | ![Error widget](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_err.png "Error widget") |
 
-## Donations
+## 💰 Donations
 
 We need your support. Projects like this can not be successful without support from the community. If you find this project useful, and would like to support further development and ongoing maintenance, please consider donating.
 
@@ -226,12 +226,12 @@ We need your support. Projects like this can not be successful without support f
   </a>
 </p>
 
-### Sponsors
+### 🙏 Sponsors
 
 <img src="https://opencollective.com/flutter_easy_localization/tiers/backer.svg?avatarHeight=48"/>
 
 
-### Contributors thanks
+### 👍 Contributors thanks
 
 ![contributors](https://contributors-img.firebaseapp.com/image?repo=aissat/easy_localization)
 <a href="https://github.com/aissat/easy_localization/graphs/contributors"></a>
