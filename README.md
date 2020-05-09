@@ -126,24 +126,18 @@ class MyApp extends StatelessWidget {
 
 ### Easy localization widget properties
 
-| Properties       | Description |
-| ---------------- | ----------- |
-| 
-This is *red*{: style="color: red"}.          | Description |
-| supportedLocales | Description |
-| path             | Description |
-| startLocale      | Description |
-| saveLocale       | Description |
-| useOnlyLangCode  | Description |
-| saveLocale       | Description |
-| preloaderColor   | Description |
-| preloaderWidget  | Description |
-| assetLoader      | Description |
+| Properties       | Required | Default                   | Description |
+| ---------------- | -------- | ------------------------- | ----------- |
+| child            | true     |                           | Description |
+| supportedLocales | true     |                           | Description |
+| path             | true     |                           | Description |
+| startLocale      | false    |                           | Description |
+| saveLocale       | false    | `true`                    | Description |
+| useOnlyLangCode  | false    | `false`                   | Description |
+| preloaderColor   | false    | `Colors.white`            | Description |
+| preloaderWidget  | false    | `EmptyPreloaderWidget()`  | Description |
+| assetLoader      | false    | `RootBundleAssetLoader()` | Description |
 
-
-This is *red*{: style="color: red"}.
-
-*required properties
 
 ## Usage
 
