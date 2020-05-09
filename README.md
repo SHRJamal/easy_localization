@@ -128,10 +128,9 @@ class MyApp extends StatelessWidget {
 
 |Properties|Description|
 |---|---|
-|child| Description  |
-|supportedLocales| Description  |
-|path| Description  |
-|supportedLocales| Description  |
+|<span style="color:red">child</span>| Description  |
+|<span style="color:red">supportedLocales</span>| Description  |
+|<span style="color:red">path</span>| Description  |
 |startLocale| Description  |
 |saveLocale| Description  |
 |useOnlyLangCode| Description  |
@@ -139,6 +138,8 @@ class MyApp extends StatelessWidget {
 |preloaderColor| Description  |
 |preloaderWidget| Description  |
 |assetLoader| Description  |
+
+<span style="color:red">*required</span> properties
 
 ## Usage
 
@@ -150,11 +151,6 @@ class MyApp extends StatelessWidget {
 |tr()| Description  |
 |plural()| Description  |
 
-### Change Locale:
-
-```dart
-context.locale = locale;
-```
 
 ## Code generation
 
