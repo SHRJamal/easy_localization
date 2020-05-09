@@ -128,9 +128,9 @@ class MyApp extends StatelessWidget {
 
 |Properties|Description|
 |---|---|
-|<span style="color:red">child</span>| Description  |
-|<span style="color:red">supportedLocales</span>| Description  |
-|<span style="color:red">path</span>| Description  |
+|<font color="red">child</font>| Description  |
+|<font color="red">supportedLocales</font>| Description  |
+|<font color="red">path</font>| Description  |
 |startLocale| Description  |
 |saveLocale| Description  |
 |useOnlyLangCode| Description  |
@@ -139,7 +139,7 @@ class MyApp extends StatelessWidget {
 |preloaderWidget| Description  |
 |assetLoader| Description  |
 
-<span style="color:red">*required</span> properties
+<font color="red">*required</font> properties
 
 ## Usage
 
