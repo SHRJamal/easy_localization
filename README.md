@@ -124,7 +124,31 @@ class MyApp extends StatelessWidget {
 
 [**Full example**](https://github.com/aissat/easy_localization/blob/master/example/lib/main.dart)
 
+### Easy localization widget properties
+
+|Properties|Description|
+|---|---|
+|child| Description  |
+|supportedLocales| Description  |
+|path| Description  |
+|supportedLocales| Description  |
+|startLocale| Description  |
+|saveLocale| Description  |
+|useOnlyLangCode| Description  |
+|saveLocale| Description  |
+|preloaderColor| Description  |
+|preloaderWidget| Description  |
+|assetLoader| Description  |
+
 ## Usage
+
+### Easy localization localization methods
+
+|Methods|Description|
+|---|---|
+|context.locale| Description  |
+|tr()| Description  |
+|plural()| Description  |
 
 ### Change Locale:
 
