@@ -144,11 +144,16 @@ class MyApp extends StatelessWidget {
 
 ### Easy localization localization methods
 
-| Methods        | Description |
-| -------------- | ----------- |
-| context.locale | Description |
-| tr()           | Description |
-| plural()       | Description |
+
+context.locale
+usage
+
+tr()
+args
+usage
+
+plural()
+usage
 
 
 ## Code generation
