@@ -126,20 +126,20 @@ class MyApp extends StatelessWidget {
 
 ### Easy localization widget properties
 
-| Properties                    | Description |
-| ----------------------------- | ----------- |
-| child{: .text-red}            | Description |
-| supportedLocales{: .text-red} | Description |
-| path{: .text-red}             | Description |
-| startLocale                   | Description |
-| saveLocale                    | Description |
-| useOnlyLangCode               | Description |
-| saveLocale                    | Description |
-| preloaderColor                | Description |
-| preloaderWidget               | Description |
-| assetLoader                   | Description |
+| Properties       | Description |
+| ---------------- | ----------- |
+| <p style='color:red'>child</p>           | Description |
+| <b style='color:red'>supportedLocales</b> | Description |
+| <span style="color:red;">path</span>            | Description |
+| startLocale      | Description |
+| saveLocale       | Description |
+| useOnlyLangCode  | Description |
+| saveLocale       | Description |
+| preloaderColor   | Description |
+| preloaderWidget  | Description |
+| assetLoader      | Description |
 
-*required{: .text-red} properties
+*required properties
 
 ## Usage
 
@@ -202,9 +202,9 @@ Text(LocaleKeys.title).tr(); //Widget
 
 ## Screenshots
 
- Arabic RTL | English LTR | Error widget
---- | --- | ---
-![Arabic RTL](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_ar.png "Arabic RTL")|![English LTR](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_en.png "English LTR")|![Error widget](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_err.png "Error widget")
+ | Arabic RTL                                                                                                                  | English LTR                                                                                                                   | Error widget                                                                                                                     |
+ | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+ | ![Arabic RTL](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_ar.png "Arabic RTL") | ![English LTR](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_en.png "English LTR") | ![Error widget](https://raw.githubusercontent.com/aissat/easy_localization/master/screenshots/Screenshot_err.png "Error widget") |
 
 ## Donations
 
