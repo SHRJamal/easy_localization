@@ -128,7 +128,7 @@ class MyApp extends StatelessWidget {
 
 |Properties|Description|
 |---|---|
-|<div class="text-red">child</div>| Description  |
+|<div style="color: #cb2431;">child</div>| Description  |
 |<font color="red">supportedLocales</font>| Description  |
 |<font color="red">path</font>| Description  |
 |startLocale| Description  |
