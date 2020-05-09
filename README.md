@@ -142,18 +142,24 @@ class MyApp extends StatelessWidget {
 
 ## Usage
 
-### Easy localization localization methods
-
+### Change locale
 
 context.locale
 usage
 
+### Translate
 tr()
-args
-usage
 
+Text().tr()
+
+example
+
+### Pluralization
 plural()
-usage
+
+example
+
+### Delete save locale
 
 
 ## Code generation
