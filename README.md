@@ -128,15 +128,16 @@ class MyApp extends StatelessWidget {
 
 | Properties       | Required | Default                   | Description |
 | ---------------- | -------- | ------------------------- | ----------- |
-| child            | true     |                           | Description |
-| supportedLocales | true     |                           | Description |
-| path             | true     |                           | Description |
-| startLocale      | false    |                           | Description |
-| saveLocale       | false    | `true`                    | Description |
-| useOnlyLangCode  | false    | `false`                   | Description |
-| preloaderColor   | false    | `Colors.white`            | Description |
-| preloaderWidget  | false    | `EmptyPreloaderWidget()`  | Description |
-| assetLoader      | false    | `RootBundleAssetLoader()` | Description |
+| child            | true     |                           | Place for your main page widget |
+| supportedLocales | true     |                           | List of supported locales |
+| path             | true     |                           | Path to your folder with localization files |
+| assetLoader      | false    | `RootBundleAssetLoader()` | Class loader for localization files |
+| fallbackLocale   | false    |                           | Returns the locale when the locale is not in the list `supportedLocales`|
+| startLocale      | false    |                           | Overrides device locale |
+| saveLocale       | false    | `true`                    | Save locale in device storage |
+| useOnlyLangCode  | false    | `false`                   | Trigger for using only language code in localization files |
+| preloaderColor   | false    | `Colors.white`            | Background color for EmptyPreloaderWidget |
+| preloaderWidget  | false    | `EmptyPreloaderWidget()`  | Preloader widget. Shown when `Easy Localization` not loaded |
 
 
 ## Usage
