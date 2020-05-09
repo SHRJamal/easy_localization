@@ -126,18 +126,18 @@ class MyApp extends StatelessWidget {
 
 ### Easy localization widget properties
 
-|Properties|Description|
-|---|---|
-|child{: .text-red}| Description  |
-|supportedLocales{: .text-red}| Description  |
-|path{: .text-red}| Description  |
-|startLocale| Description  |
-|saveLocale| Description  |
-|useOnlyLangCode| Description  |
-|saveLocale| Description  |
-|preloaderColor| Description  |
-|preloaderWidget| Description  |
-|assetLoader| Description  |
+| Properties                    | Description |
+| ----------------------------- | ----------- |
+| child{: .text-red}            | Description |
+| supportedLocales{: .text-red} | Description |
+| path{: .text-red}             | Description |
+| startLocale                   | Description |
+| saveLocale                    | Description |
+| useOnlyLangCode               | Description |
+| saveLocale                    | Description |
+| preloaderColor                | Description |
+| preloaderWidget               | Description |
+| assetLoader                   | Description |
 
 *required{: .text-red} properties
 
@@ -145,11 +145,11 @@ class MyApp extends StatelessWidget {
 
 ### Easy localization localization methods
 
-|Methods|Description|
-|---|---|
-|context.locale| Description  |
-|tr()| Description  |
-|plural()| Description  |
+| Methods        | Description |
+| -------------- | ----------- |
+| context.locale | Description |
+| tr()           | Description |
+| plural()       | Description |
 
 
 ## Code generation
